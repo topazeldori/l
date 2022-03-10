@@ -2,7 +2,11 @@ import java.util.ArrayList;
 
 public class SharedData 
 {
+<<<<<<< HEAD
 	ArrayList<Integer> array=new ArrayList<Integer>();
+=======
+	private int ArrayList<Integer> array= new ArrayList<Integer>();
+>>>>>>> branch 'master' of https://github.com/topazeldori/l.git
 	private boolean [] winArray;
 	private boolean flag;
 	private final int b;
