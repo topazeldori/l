@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class TestThreadCheckArray {
+public class TestThreadCheckArray {//
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
 			Thread thread1, thread2;
 			System.out.println("Enter array size");
 			int num  = input.nextInt();
-			ArrayList<Integer> array = new ArrayList<Integer>(num);
+			ArrayList<Integer> array = new ArrayList<Integer>();
 			System.out.println("Enter numbers for array");
 			
 			for (int index = 0; index < num; index++) 
-				array.get(index) = input.nextInt();
+				array.add( input.nextInt()) ;
 			
 			System.out.println("Enter number");
 			num = input.nextInt();
